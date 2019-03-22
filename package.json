@@ -1,0 +1,32 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vardhanreddyG/fortinet-restaurant-api.git"
+  },
+  "author": "vishnu vardhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vardhanreddyG/fortinet-restaurant-api/issues"
+  },
+  "homepage": "https://github.com/vardhanreddyG/fortinet-restaurant-api#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.5",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "joi": "^14.3.1",
+    "mongoose": "^5.4.19",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
